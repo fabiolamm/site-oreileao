@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Cantata+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: linear-gradient(#E67829, #E05E00, #AD4900);
+    padding: 30px 0;
+}
+
+header h1 {
+    font-family: 'Cantata One', serif;
+    color: white;
+    font-size: 40px;
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cantata One', serif;
+}
+
+.container { 
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 40px 0; 
+    color: #AD4900;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 16px;
+    font-family: 'Cantata One', serif;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.list img { 
+    height: 130px;
+}
+
+.list li {
+    display: inline;
+}
+
+section img{
+    margin-right: 40px;
+}
+
+Body,
+input,
+textarea {
+    font-family: 'Barlow', sans-serif;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img {
+    width: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form button {
+    background-color: #E05E00;
+    color: white;
+    font-family: 'Cantata One', serif;
+    border: none;
+    cursor: pointer; 
+}
+
+form button:hover {
+    background-color: #ff6a00;
+}
+
+input:focus, textarea:focus { 
+    outline-color: #E05E00;
+}
+
+footer {
+    background-color: #E05E00;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
